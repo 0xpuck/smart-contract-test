@@ -1,0 +1,157 @@
+.App {
+  /* background-color: #1e1e1e; */
+}
+
+.main {
+  margin: auto;
+  gap: 24px;
+}
+
+.homecard {
+  width: 320px;
+}
+
+.homecard_container{
+  background-color: #1a1a1a;
+  margin-bottom: 10px;
+}
+
+.homecard_img {
+  width: 304px;
+  height: 427px;
+  margin: 8px;
+}
+
+.homecard_header {
+  margin: 24px 32px 0 32px;
+  color: white;
+}
+
+.homecard_ownership {
+  margin-top: 2px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: end;
+}
+
+.homecard_ownership h3{
+  margin: 0;
+  font-size: 28px;
+}
+
+.homecard_ownership p{
+  margin: 0;
+  font-size: 14px;
+  text-align: right;
+  opacity: 0.5;
+}
+
+hr {
+  margin: 18px 0;
+  border-width: 1px;
+  opacity: 0.1;
+  border-color: white;
+}
+
+.homecard_description{
+  height: 62px;
+}
+.homecard_body{
+  margin: 0 32px;
+  padding-bottom: 32px;
+  color: white;
+}
+
+.homecard_ptext{
+  opacity: 0.5;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+
+.homecard_price{
+  font-size: 14px;
+  color: #BDFF1E;
+  margin-bottom: 15px;
+}
+
+.homecard_collection{
+  display: flex;
+}
+
+.homecard_collection span{
+  line-break: anywhere;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+}
+
+.homecard_icon{
+  margin-right: 16px;
+}
+
+.homecard_btn{
+  background: #BCFF1E;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  border-radius: 45px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  width: 100%;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.home_btn_view_more{
+  color: white;
+  margin-top: 24px;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.homecard_disabled_overlay{
+  background: #000;
+  width: 320px;
+  height: 781px;
+  position: absolute;
+  top: 32px;
+  opacity: 0.8;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
